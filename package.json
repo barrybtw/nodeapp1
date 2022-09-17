@@ -1,0 +1,22 @@
+{
+  "name": "nodeapp1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && pnpm start",
+    "start": "nodemon dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.7.18",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.3"
+  }
+}
